@@ -23,9 +23,7 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-  
-    <Provider store={myntraStore}>
-      <RouterProvider router={router} />
-    </Provider>
-  
+  <Provider store={myntraStore}>
+    <RouterProvider router={router} />
+  </Provider>
 );
